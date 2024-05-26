@@ -50,6 +50,7 @@ e clique em Executar no canto inferior direito, ele ira retornar uma mensagem di
 O backend do projeto está pronto para uso!
 
 -------------------------------------- * --------------------------------------------
+Link repositório front: https://github.com/mayaramary/frontend-usuario
 
 #Instruções
 Para acessar o frontend do projeto, deve-se:
@@ -77,6 +78,8 @@ Extraia o conteúdo do zip para a pasta: C:\Projeto
 Navegue até a pasta onde foram extraído os arquivos: C:\Projeto\frontend-usuario-main\. Dentro da pasta, clique com botão direito do mouse em um espaço livre e selecione a opção "terminal", e digite o comado "npm i" para instalação do projeto, posterior, digite "ng serve", aguarde o carregamento das dependencias do projeto. Ao finalizar, aparecá o link http://localhost:4200/ clique nele e o projeto irá abrir.
 
 ![imaget](https://github.com/mayaramary/backend-usuario/assets/160061218/de35e5bc-76f2-4733-9e8a-900e6f96ad76)
+
+
 
 
 
