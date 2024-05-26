@@ -1,4 +1,9 @@
 <?php
+header("Access-Control-Allow-Origin: * "); //acesso de origem
+header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS"); //permissão dos arquivos
+header("Access-Control-Allow-Headers: Content-Type, Authorization"); 
+header("Access-Control-Allow-Credentials: true");
+header('Content-Type: application/json');
 
 //variaveis
 $host       = 'localhost';
