@@ -49,6 +49,38 @@ e clique em Executar no canto inferior direito, ele ira retornar uma mensagem di
 
 O backend do projeto está pronto para uso!
 
+-------------------------------------- * --------------------------------------------
+
+#Instruções
+Para acessar o frontend do projeto, deve-se:
+Realizar download do Node 20 pelo link: https://nodejs.org/dist/v20.13.1/node-v20.13.1-x64.msi
+Execute o arquivo de instalação, clique em avançar até chegar na seguinte etapa:
+![node](https://github.com/mayaramary/backend-usuario/assets/160061218/e96d29d7-40e8-4adc-a770-ca9c5e890eb8)
+
+Marque a opção na caixa e clique em avançar até concluir a instalação.
+Finalize o instalador, após isso vai abrir uma janela de comando do windows, pressione qualquer tecla para continuar com a instalação das ferramentas adicionais do node, isso se repetirá mais uma vez até abrir uma janela do windows powershell que irá realizar o download de algumas ferramentas nativas e instala-las no node.
+
+- Angular 16:
+Para instalar o angular, abra um promopt de comando do windows como  administrador, e digite o seguinte código:
+npm install -g @angular/cli@16
+![iangular](https://github.com/mayaramary/backend-usuario/assets/160061218/c9440a05-9a67-4984-bfb2-7a10fc55e549)
+após finalizar a instalação digite 
+ng version
+vai aparecer a versão do angular instalada na maquina, a versão 16.2.14 tem que estar instalada.
+Baixar arquivo do front:
+Acesse o repositório: https://github.com/mayaramary/frontend-usuario e realize o download conforme a imagem
+![Frontend_download](https://github.com/mayaramary/backend-usuario/assets/160061218/b5be43bc-5ba1-41b0-bf41-10c3a12f70ac)
+
+
+Extraia o conteúdo do zip para a pasta: C:\Projeto
+
+Navegue até a pasta onde foram extraído os arquivos: C:\Projeto\frontend-usuario-main\. Dentro da pasta, clique com botão direito do mouse em um espaço livre e selecione a opção "terminal", e digite o comado "npm i" para instalação do projeto, posterior, digite "ng serve", aguarde o carregamento das dependencias do projeto. Ao finalizar, aparecá o link http://localhost:4200/ clique nele e o projeto irá abrir.
+
+![imaget](https://github.com/mayaramary/backend-usuario/assets/160061218/de35e5bc-76f2-4733-9e8a-900e6f96ad76)
+
+
+
+
 
 
 
